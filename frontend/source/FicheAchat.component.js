@@ -1,10 +1,10 @@
 import React from 'react';
-import { Button, Col } from 'react-bootstrap'
+import { Button, Col, Panel } from 'react-bootstrap'
 
 const FicheAchat = (props) => {
 
   return (
-    <div>
+    <Panel>
 
       <Col sm={3} md={6}>
       <h1>[Fiche Article x]</h1>
@@ -15,7 +15,7 @@ const FicheAchat = (props) => {
               <h1></h1>
       </Col>
 
-    </div>
+    </Panel>
   )
 
 }
