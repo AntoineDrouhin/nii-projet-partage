@@ -1,9 +1,8 @@
 import React from 'react'
 import { render } from 'react-dom'
-import HelloWorld from './HelloWorld.component.js'
-
+import App from './App.component.js'
 
 render(
-  <HelloWorld name="World" />,
+  <App name="World" />,
   document.getElementById('root')
 )
