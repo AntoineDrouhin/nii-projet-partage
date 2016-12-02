@@ -21,7 +21,7 @@ const ficheAchats = (state = [], action) => {
         ficheAchat(undefined, action)
       ]
     case 'DELETE_FICHEACHAT':
-      return state.filter( ficheAchat => ficheAchat.id !== ficheAchat.id )
+      return //state.filter( ficheAchat => ficheAchat.id !== ficheAchat.id )
 
     default:
       return state

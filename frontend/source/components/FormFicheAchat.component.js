@@ -6,21 +6,16 @@ const FormFicheAchat = (props) => {
 
   return (
     <Panel>
-    <Col md='6'>
 
-          <h2> Fiche Achat </h2>
+      <h2> {props.text} </h2>
 
       <FormGroup>
-         <p>Prix:  &nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp; <FormControl type="text" placeholder="Prix en Euros" /></p>
-         <p>Produit:  &emsp;&emsp;&emsp;<FormControl type="text" placeholder="Nom du Produit"/></p>
-         <p>Autre: &nbsp;&nbsp;&emsp;&emsp;&emsp; <FormControl type="text" placeholder="Ecrivez un commentaire" /></p>
-
-   </FormGroup>
-        <Button> Valider </Button>&emsp;
-        <Button> Annuler </Button>
-
-      </Col>
-
+         <p>Prix: <FormControl type="text" placeholder="Prix en Euros" /></p>
+         <p>Produit:  <FormControl type="text" placeholder="Nom du Produit"/></p>
+         <p>Autre: &nbsp;&nbsp; <FormControl type="text" placeholder="Ecrivez un commentaire" /></p>
+         <Button> Valider </Button>
+         <Button> Annuler </Button>
+     </FormGroup>
     </Panel>
   )
 
