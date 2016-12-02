@@ -40,13 +40,13 @@ class UserController extends Controller
         $typeUser = $params["typeUser"];
         $login = $params["login"];
         $password = $params["password"];
-        $token = $params["token"];
+        // $token = $params["token"];
 
         $user = new User();
 		$user->setTypeUser($typeUser);
 		$user->setLogin($login);
-		$user->setPassword($password);
-		$user->setToken($token);
+		$user->setPassword(md5($password));
+		// $user->setToken($token);
 
 
         $em = $this->getDoctrine()->getManager();
@@ -115,11 +115,35 @@ class UserController extends Controller
     }
 
     // connecte un user
-    public function connexion(){
-
+    public function connexionAction(Request $request){
+    	$params = array();
+        $content = $request->getContent();
+        $params = json_decode($content ,true); 
+        $em = $this->getDoctrine()->getManager();
+        $login = $params["login"];
+        $password = md5($params["password"]);
+		$user = $em->getRepository('UserPlatformBundle:user')->findOneBy(array("login" => $login, "password" => $password ));
+		if($user == null){
+			return new Error("login et mot de passe incorrect");
+		}
+		// var_dump($user);
+		$token = md5(uniqid(rand(), true));
+		$array = array("id" => $user->getId(),"token" =>$token);
+		return new Response(json_encode($array));
     }
 
     // deconnecte un user
-    public function deconnexion(){
+    public function deconnexionAction(){
+    	$params = array();
+        $content = $request->getContent();
+        $params = json_decode($content ,true); 
+        $em = $this->getDoctrine()->getManager();
+
+        $id = $params["id"];
+		$repository = $this->getDoctrine()->getRepository('UserPlatformBundle:user');
+    	$user = $repository->findOneBy(array("id" => $id));
+
+    	$user->setToken(null);
+
     }
 }

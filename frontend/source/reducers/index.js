@@ -6,6 +6,6 @@ import ficheAchat from './ficheAchat.reducer.js'
 //   ficheAchat.reduce.js
 // })
 
-const achatApp = ficheAchat
+const partageApp = ficheAchat
 
-export default achatApp
+export default partageApp

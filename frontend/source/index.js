@@ -1,7 +1,7 @@
 import React from 'react'
 import { render } from 'react-dom'
 import App from './App.component.js'
-import achatApp from './reducers'
+import partageApp from './reducers'
 import { Provider } from 'react-redux'
 import { createStore } from 'redux'
 
@@ -15,7 +15,7 @@ const initialState = {
     }
 };
 
-let store = createStore(expenseApp, initialState)
+let store = createStore(partageApp, initialState)
 
 render(
   <Provider store={store}>
