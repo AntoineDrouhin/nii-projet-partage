@@ -9,3 +9,10 @@ export const addFicheAchat = (produit,titre,prix) => {
     prix
   }
 }
+
+export const deleteFicheAchat = (id) => {
+  return {
+    type: 'DELETE_FICHEACHAT',
+    id
+  }
+}

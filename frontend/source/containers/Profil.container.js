@@ -36,7 +36,7 @@ const mapStateToProps = (state) => {
 const Profil = connect(
   mapStateToProps,
   //mapDispatchToProps
-)(FormFicheAchat)
+)(Profil)
 
 
 export default Profil
