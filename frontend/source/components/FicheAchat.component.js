@@ -2,10 +2,9 @@ import React from 'react';
 import { Button, Col, Panel } from 'react-bootstrap'
 
 const FicheAchat = (props) => {
-
+  
   return (
     <Panel>
-
       <Col sm={3} md={6}>
         <h1>[Fiche Article x]</h1>
         <h2>Nom Produit :</h2>
@@ -14,7 +13,6 @@ const FicheAchat = (props) => {
         <Button bsStyle="success">+</Button>
         <h1></h1>
       </Col>
-
     </Panel>
   )
 
