@@ -1,6 +1,6 @@
 import { connect } from 'react-redux'
 import { addFicheAchat } from '../actions'
-import Profil from '../components/Profil.component'
+import ProfilComponent from '../components/Profil.component'
 
 const getTypeUser = (typeUser) => {
   if (typeUser === "b") {
@@ -12,16 +12,16 @@ const getTypeUser = (typeUser) => {
   if (typeUser === "c") {
     return "Commercant"
   }
-
 }
 
 const mapStateToProps = (state) => {
   return {
     username: state.profil.username,
     typeUser: getTypeUser(state.profil.typeUser),
-    nom: state.profil.username,
-    prenom: state.profil.username,
-    imgUrl: state.profil.imgUrl
+    nom: state.profil.nom,
+    prenom: state.profil.prenom,
+    imgUrl: state.profil.imgUrl,
+    mail: state.profil.mail
   }
 }
 //
@@ -34,9 +34,10 @@ const mapStateToProps = (state) => {
 // }
 
 const Profil = connect(
-  mapStateToProps,
+  mapStateToProps
   //mapDispatchToProps
-)(Profil)
+)(ProfilComponent)
+
 
 
 export default Profil
