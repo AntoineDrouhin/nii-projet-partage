@@ -7,6 +7,7 @@ const Profil = (props) => {
     <Panel>
     <h3> Mon compte </h3>
           <Image src={props.imgUrl} responsive  circle />
+          <p> typeUser: {props.typeUser}</p>
           <p> Identifiant: {props.username}</p>
           <p>Nom: {props.nom}</p>
           <p>Prenom: {props.prenom}</p>

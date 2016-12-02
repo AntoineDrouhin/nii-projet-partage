@@ -14,7 +14,7 @@ const FicheAchat = (props) => {
         <Col md={4}>
           <ButtonToolbar >
             <Col md={6}>
-            <Button bsStyle="success">Payer</Button>
+            <a href="https://www.paypal.com/" target="_blank" ><Button bsStyle="success">Payer</Button></a>
             </Col>
             <Col md={6}>
             <Button bsStyle="danger" onClick={props.onDelete(props.id)}>Supprimer</Button>
