@@ -1,0 +1,4 @@
+services:
+#    fiche_achat_platform.example:
+#        class: FicheAchat\PlatformBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]

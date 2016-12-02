@@ -1,3 +1,11 @@
+fiche_achat_platform:
+    resource: "@FicheAchatPlatformBundle/Resources/config/routing.yml"
+    prefix:   /
+
+produit_platform:
+    resource: "@ProduitPlatformBundle/Resources/config/routing.yml"
+    prefix:   /
+
 user_platform:
     resource: "@UserPlatformBundle/Resources/config/routing.yml"
     prefix:   /

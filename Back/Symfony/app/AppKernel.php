@@ -25,6 +25,8 @@ class AppKernel extends Kernel
             new AppBundle\AppBundle(),
             new User\PlatformBundle\UserPlatformBundle(),
             new JMS\SerializerBundle\JMSSerializerBundle(),
+            new Produit\PlatformBundle\ProduitPlatformBundle(),
+            new FicheAchat\PlatformBundle\FicheAchatPlatformBundle(),
         ];
 
         if (in_array($this->getEnvironment(), ['dev', 'test'], true)) {

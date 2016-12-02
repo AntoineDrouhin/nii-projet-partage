@@ -1,0 +1,12 @@
+ficheAchat_platform_affichage:
+    path:     /ficheAchat/get
+    defaults: { _controller: ProduitPlatformBundle:Produit:affichage }
+ficheAchat_platform_ajout:
+    path:     /ficheAchat/post
+    defaults: { _controller: ProduitPlatformBundle:Produit:ajout }
+ficheAchat_platform_modif:
+    path:     /ficheAchat/put
+    defaults: { _controller: ProduitPlatformBundle:Produit:modification }
+ficheAchat_platform_delete:
+    path:     /ficheAchat/delete
+    defaults: { _controller: ProduitPlatformBundle:Produit:suppression }

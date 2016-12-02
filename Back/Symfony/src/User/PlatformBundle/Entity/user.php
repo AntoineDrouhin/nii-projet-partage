@@ -45,10 +45,30 @@ class user
     /**
      * @var string
      *
-     * @ORM\Column(name="token", type="string", length=600)
+     * @ORM\Column(name="token", type="string", length=600,nullable=true)
      */
     private $token;
 
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="nom", type="string", length=255)
+     */
+    private $nom;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="prenom", type="string", length=255)
+     */
+    private $prenom;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="urlImage", type="string", length=255)
+     */
+    private $urlImage;
 
     /**
      * Get id
@@ -154,6 +174,80 @@ class user
     public function getToken()
     {
         return $this->token;
+    }
+
+    /**
+     * Set nom
+     *
+     * @param string $nom
+     *
+     * @return user
+     */
+    public function setNom($nom)
+    {
+        $this->nom = $nom;
+
+        return $this;
+    }
+
+    /**
+     * Get nom
+     *
+     * @return string
+     */
+    public function getNom()
+    {
+        return $this->nom;
+    }
+
+
+    /**
+     * Set prenom
+     *
+     * @param string $prenom
+     *
+     * @return user
+     */
+    public function setPrenom($prenom)
+    {
+        $this->prenom = $prenom;
+
+        return $this;
+    }
+
+    /**
+     * Get prenom
+     *
+     * @return string
+     */
+    public function getPrenom()
+    {
+        return $this->prenom;
+    }
+
+
+    /**
+     * Set urlImage
+     *
+     * @param string $urlImage
+     *
+     * @return user
+     */
+    public function setUrlImage($urlImage)
+    {
+        $this->urlImage = $urlImage;
+
+        return $this;
+    }
+
+    /**
+     * Get urlImage
+     *
+     * @return string
+     */
+    public function getUrlImage()
+    {
+        return $this->urlImage;
     }
 }
 

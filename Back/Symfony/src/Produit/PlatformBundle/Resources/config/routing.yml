@@ -1,0 +1,12 @@
+produit_platform_affichage:
+    path:     /produit/get
+    defaults: { _controller: ProduitPlatformBundle:Produit:affichage }
+produit_platform_ajout:
+    path:     /produit/post
+    defaults: { _controller: ProduitPlatformBundle:Produit:ajout }
+produit_platform_modif:
+    path:     /produit/put
+    defaults: { _controller: ProduitPlatformBundle:Produit:modification }
+produit_platform_delete:
+    path:     /produit/delete
+    defaults: { _controller: ProduitPlatformBundle:Produit:suppression }

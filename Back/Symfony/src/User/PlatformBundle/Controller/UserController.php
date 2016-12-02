@@ -40,12 +40,19 @@ class UserController extends Controller
         $typeUser = $params["typeUser"];
         $login = $params["login"];
         $password = $params["password"];
+        $nom = $params["nom"];
+		$prenom = $params["prenom"];
+		$urlImage = $params["urlImage"];
+
         // $token = $params["token"];
 
         $user = new User();
 		$user->setTypeUser($typeUser);
 		$user->setLogin($login);
 		$user->setPassword(md5($password));
+		$user->setNom($nom);
+		$user->setPrenom($prenom);
+		$user->setUrlImage($urlImage);
 		// $user->setToken($token);
 
 
@@ -76,7 +83,10 @@ class UserController extends Controller
         $typeUser = $params["typeUser"];
         $login = $params["login"];
         $password = $params["password"];
-        $token = $params["token"];
+        // $token = $params["token"];
+        $nom = $params["nom"];
+		$prenom = $params["prenom"];
+		$urlImage = $params["urlImage"];
 
     	$repository = $this->getDoctrine()->getRepository('UserPlatformBundle:user');
     	$user = $repository->findOneBy(array("id" => $id));
@@ -85,7 +95,10 @@ class UserController extends Controller
 		$user->setTypeUser($typeUser);
 		$user->setLogin($login);
 		$user->setPassword($password);
-		$user->setToken($token);
+		// $user->setToken($token);
+		$user->setNom($nom);
+		$user->setPrenom($prenom);
+		$user->setUrlImage($urlImage);
 
 
         $em = $this->getDoctrine()->getManager();
