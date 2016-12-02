@@ -1,11 +1,11 @@
 import React from 'react';
-import { Button, DropdownButton,FormGroup,FormControl, MenuItem, Col } from 'react-bootstrap'
+import { Panel,Button, DropdownButton,FormGroup,FormControl, MenuItem, Col } from 'react-bootstrap'
 
 
 const FormFicheAchat = (props) => {
 
   return (
-    <div>
+    <Panel>
     <Col md='6'>
 
           <h2> Fiche Achat </h2>
@@ -21,7 +21,7 @@ const FormFicheAchat = (props) => {
 
       </Col>
 
-    </div>
+    </Panel>
   )
 
 }
