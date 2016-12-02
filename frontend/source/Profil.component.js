@@ -1,17 +1,32 @@
 import React from 'react';
-import { Button, Col } from 'react-bootstrap'
+import { Image, Col } from 'react-bootstrap'
+
+
 
 const Profil = (props) => {
 
   return (
     <div>
-      <Col md='6'>
-        <Button> Click me </Button>
-      </Col>
+    <h3> Mon compte </h3>
+        <Col xs={2} md={4}>
+          <Image src="/img/PhotoProfil.png" responsive  circle />
+          <row>
+
+          <p> Identifiant:</p>
+          <div style={{backgroundColor: "SanddleBrown"}} > <p>Nom:</p> </div>
+          <p>Nom:</p>
+          <p>Prenom:</p>
+          <p>Adresse:</p>
+          <p>Mail:</p>
+          <p>Téléphone:</p>
+          <p>Mes achats:</p>
+          </row>
+
+        </Col>
 
 
+      </div>
 
-    </div>
   )
 
 }
