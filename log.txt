@@ -1,0 +1,300 @@
+commit 8413f2ccf7678388e77abf177d58de954812200b
+Author: Antoine Drouhin <antoine.drouhin@gmail.com>
+Date:   Fri Dec 2 06:54:41 2016 +0100
+
+    Ajout liste composant
+
+commit 8b184fa00b5e47af87ce09f579b8adc588f0b808
+Merge: 2c25148 274e983
+Author: Antoine Drouhin <antoine.drouhin@gmail.com>
+Date:   Fri Dec 2 05:54:10 2016 +0100
+
+    Merge pull request #13 from MadStain/GestionFicheAchat
+    
+    Gestion redux fiche achat
+
+commit 274e983ae3e3e1cf783d2130ee56c40dee2ae06c
+Merge: bcfcc22 2c25148
+Author: LeKerss <annas9001@gmail.com>
+Date:   Fri Dec 2 05:53:00 2016 +0100
+
+    Merge remote-tracking branch 'refs/remotes/origin/master' into GestionFicheAchat
+    
+    # Conflicts:
+    #	frontend/source/containers/Profil.container.js
+
+commit 2c25148e3e2b48d2e2e4c73a5aed87f26c0b9aaa
+Merge: 457f83b 6a1db90
+Author: Antoine Drouhin <antoine.drouhin@gmail.com>
+Date:   Fri Dec 2 05:35:00 2016 +0100
+
+    Merge pull request #12 from MadStain/introduce-container
+    
+    Introduce container
+
+commit bcfcc22dc998c7e88d5a2d79e23e90a555384723
+Author: LeKerss <annas9001@gmail.com>
+Date:   Fri Dec 2 05:25:01 2016 +0100
+
+    Gestion redux fiche achat
+    
+    added fiche achat redux
+
+commit 6a1db907fb2199816458b2064bab0802e176e369
+Author: Antoine Drouhin <antoine.drouhin@gmail.com>
+Date:   Fri Dec 2 05:18:04 2016 +0100
+
+    Profil included
+
+commit 37ae27425502b8ebf77920d1a48ef1121943bb7e
+Author: Antoine Drouhin <antoine.drouhin@gmail.com>
+Date:   Fri Dec 2 04:46:44 2016 +0100
+
+    Add profil to app page
+
+commit 57fc2297283960f383770a7476bc5aa428bfef65
+Author: Antoine Drouhin <antoine.drouhin@gmail.com>
+Date:   Fri Dec 2 04:32:09 2016 +0100
+
+    Remove HelloWorld
+
+commit 457f83b98bdeda83cc98227daaecf864a9b14bc2
+Merge: 16ffcc5 4fa5fbe
+Author: Antoine Drouhin <antoine.drouhin@gmail.com>
+Date:   Fri Dec 2 03:45:10 2016 +0100
+
+    Merge pull request #11 from MadStain/init-redux
+    
+    Init redux
+
+commit 4fa5fbe54b3d58599414fedbf17ad58991fba6c1
+Merge: dbe6cf2 16ffcc5
+Author: Antoine Drouhin <antoine.drouhin@gmail.com>
+Date:   Fri Dec 2 03:43:39 2016 +0100
+
+    Merge branch 'master' into init-redux
+    
+    # Conflicts:
+    #	frontend/source/App.component.js
+
+commit dbe6cf2fde0615af7186c5f9db44d511ec5ff455
+Author: Antoine Drouhin <antoine.drouhin@gmail.com>
+Date:   Fri Dec 2 03:40:50 2016 +0100
+
+    Merge branch 'master' into init-redux
+
+commit 16ffcc52164a4481099bf592302eaf8ed4df9005
+Merge: 7b30466 5a289c9
+Author: Antoine Drouhin <antoine.drouhin@gmail.com>
+Date:   Fri Dec 2 03:31:44 2016 +0100
+
+    Merge pull request #10 from MadStain/profil
+    
+    Profil Component
+
+commit 5a289c94c96c62f29fa9c9e594775e4c0e61fc3c
+Merge: 98687a2 7b30466
+Author: Antoine Drouhin <antoine.drouhin@gmail.com>
+Date:   Fri Dec 2 03:29:14 2016 +0100
+
+    Resolve diff from master
+
+commit 98687a258d856e982a9a4c39ce100a0dace14c77
+Merge: bc2636d ccf8976
+Author: Antoine Drouhin <antoine.drouhin@gmail.com>
+Date:   Fri Dec 2 03:27:20 2016 +0100
+
+    Merge branch 'master' into profil
+    
+    # Conflicts:
+    #	frontend/source/App.component.js
+
+commit 7b3046675d9977f0be522a2f5c2ef6bd0499d3b7
+Merge: ccf8976 26f76e5
+Author: Antoine Drouhin <antoine.drouhin@gmail.com>
+Date:   Fri Dec 2 03:24:34 2016 +0100
+
+    Merge pull request #9 from MadStain/creation-fiche-achat
+    
+    Fiche achat
+
+commit 26f76e5e893aa7c1482177545c436b53b9ff7827
+Merge: d9dc619 ccf8976
+Author: Antoine Drouhin <antoine.drouhin@gmail.com>
+Date:   Fri Dec 2 03:23:39 2016 +0100
+
+    Merge branch 'master' into creation-fiche-achat
+    
+    # Conflicts:
+    #	frontend/source/App.component.js
+
+commit ccf8976ff52c5a3316af97a0b461a9c3fd9fb6cf
+Merge: 5e48c42 2cfb3ef
+Author: Antoine Drouhin <antoine.drouhin@gmail.com>
+Date:   Fri Dec 2 03:21:45 2016 +0100
+
+    Merge pull request #8 from MadStain/Inscription
+    
+    Formulaire inscription
+
+commit d9dc6195de06f72f5114819763eeb6c51f9a08a7
+Author: jonasmaz <jonasmaz@hotmail.fr>
+Date:   Fri Dec 2 02:53:10 2016 +0100
+
+    Mise d'un Panel sur fiche achat
+
+commit 1b777bf2a5f91a6ee24d0217e2844bcf45b78991
+Merge: 3e9f645 5e48c42
+Author: Antoine Drouhin <antoine.drouhin@gmail.com>
+Date:   Fri Dec 2 03:19:58 2016 +0100
+
+    Merge branch 'master' into creation-fiche-achat
+
+commit bc2636db3bf994bf9a95e21203b9c3970e29960d
+Author: perlaben <perla.benhamou@hotmail.fr>
+Date:   Fri Dec 2 03:10:43 2016 +0100
+
+    photo
+    
+    Amélioration de la taille de la photo.
+
+commit f31e9981af57fda8af52b9aae32876c730cc61ae
+Author: Antoine Drouhin <antoine.drouhin@gmail.com>
+Date:   Fri Dec 2 03:09:42 2016 +0100
+
+    init redux
+
+commit 2cfb3ef43b33e7e5f9edb3f22a09fed26b58e4a9
+Author: jonasmaz <jonasmaz@hotmail.fr>
+Date:   Fri Dec 2 02:57:12 2016 +0100
+
+    Mise d'un panel sur Incription
+
+commit 31f166dec2d4e06e615ba20c6d89d9bfca5bb77e
+Author: perlaben <perla.benhamou@hotmail.fr>
+Date:   Fri Dec 2 02:46:39 2016 +0100
+
+    Composant Profil init
+
+commit ba06f3b770340593799e116e0ab66bec9eccb61e
+Author: perlaben <perla.benhamou@hotmail.fr>
+Date:   Fri Dec 2 02:34:02 2016 +0100
+
+    Profil
+
+commit 3e9f645e5372e7fc0c3c288546f1083bd4c649b4
+Author: jonasmaz <jonasmaz@hotmail.fr>
+Date:   Fri Dec 2 02:26:10 2016 +0100
+
+    Fiche achat
+
+commit 5e48c42ec07c2b199f7698e5c5378bcd109a3733
+Author: Anis Mezdari <mezdari7758@gmail.com>
+Date:   Fri Dec 2 01:38:08 2016 +0100
+
+    Connexion déconnexion User
+    
+    c tout
+
+commit 61dd7c8ada4cddca26f26e18c899dbc279bbd144
+Author: jonasmaz <jonasmaz@hotmail.fr>
+Date:   Fri Dec 2 01:04:34 2016 +0100
+
+    Formulaire inscription
+
+commit f6848b0cd7bd11a343621f49af919beb75df9bdf
+Merge: e96150b c8187cc
+Author: Antoine Drouhin <antoine.drouhin@gmail.com>
+Date:   Fri Dec 2 01:00:21 2016 +0100
+
+    Merge pull request #7 from MadStain/composant-ficheachat
+    
+    ajout de la div produit
+
+commit e96150bc61a04d5a625375cc85c1363a95e4d518
+Author: Anis Mezdari <mezdari7758@gmail.com>
+Date:   Fri Dec 2 00:28:30 2016 +0100
+
+    User post put get delete
+    
+    création des routes get, post, delete et put et controller fait
+
+commit 7b3e1dcb5c2a47958ab01a32f4d1a220f19de5eb
+Author: Anis Mezdari <mezdari7758@gmail.com>
+Date:   Thu Dec 1 23:38:24 2016 +0100
+
+    affichage user
+    
+    creation route et controller user
+
+commit c8187cccba09ef31ffebb0d4100a8d9d73e15d10
+Author: Antoine Drouhin <antoine.drouhin@gmail.com>
+Date:   Fri Dec 2 00:28:04 2016 +0100
+
+    ficheachat panel
+
+commit f663b90c8ec349fecccf05f718d5fa004cbb705e
+Merge: 37f97b8 1ed6d6a
+Author: Antoine Drouhin <antoine.drouhin@gmail.com>
+Date:   Fri Dec 2 00:25:01 2016 +0100
+
+    Merge branch 'master' into composant-ficheachat
+
+commit 1ed6d6a97842d77810ed34e626f88a7c7771f0f6
+Author: Antoine Drouhin <antoine.drouhin@gmail.com>
+Date:   Fri Dec 2 00:08:01 2016 +0100
+
+    update gitignore
+
+commit 37f97b8f67a84884aa53c5dc39c41fa6910f09de
+Author: scraph <raphael.uzan.aa@gmail.com>
+Date:   Thu Dec 1 22:51:46 2016 +0100
+
+    ajout de la div produit
+
+commit f6351d6e9f20af5909cac1c3d97a5bfec434ef7b
+Author: perlaben <perla.benhamou@hotmail.fr>
+Date:   Thu Dec 1 22:47:10 2016 +0100
+
+    Set up
+
+commit cb387611a4ee565823a07d5aead129196af7b165
+Merge: 16b57b0 d212bac
+Author: scraph <raphael.uzan.aa@gmail.com>
+Date:   Thu Dec 1 22:19:15 2016 +0100
+
+    Merge pull request #6 from MadStain/composant-ficheachat
+    
+    Init composant architecture
+
+commit d212bac2861325eecb9fd52cdbee2c08d0a2e187
+Author: scraph <raphael.uzan.aa@gmail.com>
+Date:   Thu Dec 1 22:18:17 2016 +0100
+
+    Init composant architecture
+
+commit 16b57b0721a53744fef645cd0ac76a7f778c6bc4
+Author: Anis Mezdari <mezdari7758@gmail.com>
+Date:   Thu Dec 1 21:16:40 2016 +0100
+
+    Base de dossier
+    
+    Installation de symfony  création du bundle avec une entité user
+
+commit 2684e4f2160a839a5da77a33ce1a09c9fd231747
+Author: Antoine Drouhin <antoine.drouhin@gmail.com>
+Date:   Thu Dec 1 21:14:22 2016 +0100
+
+    Init front-end
+
+commit 4eca08ec4c7d5bc20f1a39ab0c8cc31cbd2182dd
+Author: Antoine Drouhin <antoine.drouhin@gmail.com>
+Date:   Thu Dec 1 20:40:04 2016 +0100
+
+    Update README.md
+
+commit 508d953c69f92c5958d9006bf9f6d3765ae8fc22
+Author: Antoine Drouhin <antoine.drouhin@gmail.com>
+Date:   Thu Dec 1 19:47:00 2016 +0100
+
+    Initial commit
