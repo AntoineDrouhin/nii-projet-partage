@@ -1,11 +1,11 @@
 import React from 'react';
-import { Button, DropdownButton,FormGroup,FormControl, MenuItem, Col } from 'react-bootstrap'
+import { Panel,Button, DropdownButton,FormGroup,FormControl, MenuItem, Col } from 'react-bootstrap'
 
 
 const Inscription = (props) => {
 
   return (
-    <div>
+    <Panel>
     <Col md='6'>
 
           <h2> Formulaire </h2>
@@ -27,7 +27,7 @@ const Inscription = (props) => {
 
       </Col>
 
-    </div>
+    </Panel>
   )
 
 }
