@@ -18,9 +18,10 @@ const mapStateToProps = (state) => {
   return {
     username: state.profil.username,
     typeUser: getTypeUser(state.profil.typeUser),
-    nom: state.profil.username,
-    prenom: state.profil.username,
-    imgUrl: state.profil.imgUrl
+    nom: state.profil.nom,
+    prenom: state.profil.prenom,
+    imgUrl: state.profil.imgUrl,
+    mail: state.profil.mail
   }
 }
 //

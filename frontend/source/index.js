@@ -11,7 +11,8 @@ const initialState = {
       typeUser: "b",
       nom: "Saker",
       prenom: "Annas",
-      imgUrl: "http://www.toutpourmonchat.fr/wp-content/uploads/2013/07/chat-bien-etre.jpg"
+      imgUrl: "http://www.toutpourmonchat.fr/wp-content/uploads/2013/07/chat-bien-etre.jpg",
+      mail: "annas.saker@gmail.com"
     }
 };
 
