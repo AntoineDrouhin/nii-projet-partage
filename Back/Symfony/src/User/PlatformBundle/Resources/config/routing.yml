@@ -1,3 +1,15 @@
-user_platform_homepage:
-    path:     /
-    defaults: { _controller: UserPlatformBundle:Default:index }
+user_platform_affichage:
+    path:     /user/get
+    defaults: { _controller: UserPlatformBundle:User:affichage }
+user_platform_ajout:
+    path:     /user/post
+    defaults: { _controller: UserPlatformBundle:User:ajout }
+user_platform_modif:
+    path:     /user/put
+    defaults: { _controller: UserPlatformBundle:User:modification }
+user_platform_delete:
+    path:     /user/delete
+    defaults: { _controller: UserPlatformBundle:User:suppression }
+user_platform_connexion:
+    path:     /user/connexion
+    defaults: { _controller: UserPlatformBundle:User:connexion }

@@ -3,16 +3,15 @@ import HelloWorld from './HelloWorld.component.js'
 import FicheAchat from './FicheAchat.component.js'
 import Profil from './Profil.component.js'
 import {Col, Row} from 'react-bootstrap'
+import Inscription from './Inscription.component.js'
 
 const App = (props) => {
 
   return (
     <div>
+      <Col md={6} style={{backgroundColor: "lightblue"}}>
 
-      <Col md="3" style={{backgroundColor: "lightblue"}}>
-
-          <Profil {...props} />
-
+          <Inscription {...props}/>
 
       </Col>
     </div>
