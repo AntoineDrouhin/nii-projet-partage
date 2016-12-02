@@ -1,10 +1,9 @@
 import React from 'react';
-import HelloWorld from './HelloWorld.component.js'
+
 import FicheAchat from './FicheAchat.component.js'
-
 import Profil from './Profil.component.js'
-
 import FormFicheAchat from './FormFicheAchat.component.js'
+import Inscription from './Inscription.component.js'
 
 import {Col, Row} from 'react-bootstrap'
 import Inscription from './Inscription.component.js'
@@ -21,7 +20,6 @@ const App = (props) => {
       </Col>
     </div>
   )
-
 
 }
 
