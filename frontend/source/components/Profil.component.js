@@ -6,17 +6,11 @@ const Profil = (props) => {
   return (
     <Panel>
     <h3> Mon compte </h3>
-
-          <Image src="/img/PhotoProfil.png" responsive  circle />
-          <p> Identifiant:</p>
-          <p>Nom:</p>
-          <p>Nom:</p>
-          <p>Prenom:</p>
-          <p>Adresse:</p>
-          <p>Mail:</p>
-          <p>Téléphone:</p>
-          <p>Mes achats:</p>
-
+          <Image src={props.imgUrl} responsive  circle />
+          <p> Identifiant: {props.username}</p>
+          <p>Nom: {props.nom}</p>
+          <p>Prenom: {props.prenom}</p>
+          <p>Mail: <a src={"mailto:" + props.mail}>{props.mail}</a></p>
     </Panel>
   )
 }

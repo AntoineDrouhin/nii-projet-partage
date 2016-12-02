@@ -1,6 +1,6 @@
 import React from 'react'
 import { render } from 'react-dom'
-import App from './App.component.js'
+import App from './components/App.component.js'
 import partageApp from './reducers'
 import { Provider } from 'react-redux'
 import { createStore } from 'redux'
@@ -11,7 +11,8 @@ const initialState = {
       typeUser: "b",
       nom: "Saker",
       prenom: "Annas",
-      imgUrl: "http://www.toutpourmonchat.fr/wp-content/uploads/2013/07/chat-bien-etre.jpg"
+      imgUrl: "http://www.toutpourmonchat.fr/wp-content/uploads/2013/07/chat-bien-etre.jpg",
+      mail: "annas.saker@gmail.com"
     }
 };
 
