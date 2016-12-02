@@ -10,3 +10,6 @@ user_platform_modif:
 user_platform_delete:
     path:     /user/delete
     defaults: { _controller: UserPlatformBundle:User:suppression }
+user_platform_connexion:
+    path:     /user/connexion
+    defaults: { _controller: UserPlatformBundle:User:connexion }
